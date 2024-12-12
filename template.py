@@ -14,6 +14,9 @@ for line in file:
 
 
 # DIR = [0, 1, 0, -1, 0]
+# DIR2 = [1,-1,-1,1,1]
+# facing = ["r", "d", "l", "u"]
+
 
 def useful_function():
     pass
