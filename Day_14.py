@@ -85,7 +85,6 @@ def solve(part, positions):
             else:
                 print(second+1)
 
-
 # part 1
 solve(True, positions)
 # part 2
