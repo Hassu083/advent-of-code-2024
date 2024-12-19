@@ -39,8 +39,6 @@ def evaluate_p1(i, word, memo):
             break
         if tree_node.next[word[j]].pattern_complete:
             ans = ans or evaluate_p1(j+1, word, memo)
-            if ans:
-                return True
         tree_node = tree_node.next[word[j]]
     memo[i] = ans
     return ans
